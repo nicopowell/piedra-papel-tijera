@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(320deg, #7a1853, #390655);
+}
+
+nav,
+footer {
+  background-color: #0005;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#marcadorContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  max-width: 300px;
+  border: 2px solid white;
+  font-size: 2.5rem;
+  position: relative;
+}
+
+#botones {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 300px;
+}
+
+.btn {
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.5rem;
+}
+
+#btnReiniciar {
+  width: 13rem;
+  height: 3rem;
+}
