@@ -25,19 +25,20 @@
       <h2 class="text-white-50">Ejercicio 7</h2>
     </nav>
     <main>
-      <section id="marcador" class="mb-5 rounded">
+      <section class="mb-5 rounded" id="marcadorContainer">
         <p class="m-0 ms-3 fs-5 text-bg-primary rounded px-1">Tú</p>
-        <p class="m-0">1 : 3</p>
+        <p class="m-0" id="marcador">0 : 0</p>
         <p class="m-0 me-3 fs-5 text-bg-primary rounded px-1">PC</p>
       </section>
       <section class="mb-3">
-        <p class="fs-4">Piedra gana al papel. Ganaste!</p>
+        <p class="fs-4" id="parrafoResultado"></p>
       </section>
       <section id="botones">
-        <button class="btn btn-outline-light">✊</button
-        ><button class="btn btn-outline-light">🤚</button
-        ><button class="btn btn-outline-light">✌</button>
+        <button class="btn btn-outline-light" id="btnPiedra">✊</button
+        ><button class="btn btn-outline-light" id="btnPapel">🤚</button
+        ><button class="btn btn-outline-light" id="btnTijera">✌</button>
       </section>
+      <button class="btn btn-primary fs-5 mt-5" id="btnReiniciar">Reiniciar contador</button>
     </main>
     <footer class="text-center py-3">
       <p class="m-0">Nicolas Powell</p>

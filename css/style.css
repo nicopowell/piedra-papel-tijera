@@ -5,7 +5,8 @@ body {
   background: linear-gradient(320deg, #7a1853, #390655);
 }
 
-nav, footer {
+nav,
+footer {
   background-color: #0005;
 }
 
@@ -17,7 +18,7 @@ main {
   align-items: center;
 }
 
-#marcador {
+#marcadorContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,4 +41,9 @@ main {
   width: 5rem;
   height: 5rem;
   font-size: 2.5rem;
+}
+
+#btnReiniciar {
+  width: 13rem;
+  height: 3rem;
 }
